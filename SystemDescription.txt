@@ -1,0 +1,16 @@
+Vas a crear un API  con FastAPI[standard]. Este API debe permitir:
+1. Crear usuarios para un login:
+    - Id: Unico y autogenerado con UUID
+    - Nombre: String
+    - Cedula: Int
+	- correo electrónico:string
+	- Celular: String 
+	-Contraseña: String, esta debe ser creada de forma aleatoria
+	
+    
+2. Listar los usuarios creados
+
+La base de datos debe ser de tipo SQL: SQLite
+Debes utilizar un ORM para la base de datos.
+Utiliza clean architecture para la estructura del proyecto.
+Evita usar operaciones asyncronas.
